@@ -1,0 +1,14 @@
+An entry in the list is one of:
+    function_name(args): description of function
+    alias_name = replicated_function_name
+
+I
+i = input
+
+P
+p(a): print a
+pr(a): return whether a is prime
+
+R
+ri = raw_input
+
