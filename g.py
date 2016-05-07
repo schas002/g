@@ -12,6 +12,6 @@ def pr(n):
     while trial * trial <= n:
         if n % trial == 0:
             return False
-    else:
-        # loop fell through without finding a factor
-        return True
+        trial += 1
+    # loop fell through without finding a factor
+    return True
